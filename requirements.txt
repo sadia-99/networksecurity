@@ -4,4 +4,10 @@ numpy
 pymongo
 certifi
 scikit-learn
+mlflow
 ##-e .
+dagshub
+fastapi
+uvicorn
+python-multipart
+jinja2

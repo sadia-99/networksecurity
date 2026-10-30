@@ -1,0 +1,25 @@
+2026-10-27 20:50:13,958 - INFO - NumExpr defaulting to 4 threads.
+2026-10-27 20:53:08,497 - INFO - Start data Ingestion
+2026-10-27 20:53:10,169 - INFO - Performed train test split on the dataframe
+2026-10-27 20:53:10,170 - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+2026-10-27 20:53:10,170 - INFO - Exporting train and test file path.
+2026-10-27 20:53:10,334 - INFO - Exported train and test file path.
+2026-10-27 20:53:10,335 - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts\\10_27_2026_20_50_14\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\10_27_2026_20_50_14\\data_ingestion\\ingested\\test.csv')
+2026-10-27 20:53:10,353 - INFO - Initiate the data Validation
+2026-10-27 20:53:10,466 - INFO - Required number of columns:2
+2026-10-27 20:53:10,466 - INFO - Data frame has columns:31
+2026-10-27 20:53:10,466 - INFO - Required number of columns:2
+2026-10-27 20:53:10,466 - INFO - Data frame has columns:31
+2026-10-27 20:53:11,348 - INFO - Entered initiate_data_transformation method of DataTransformation class
+2026-10-27 20:53:11,348 - INFO - Starting data transformation
+2026-10-27 20:53:11,555 - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+2026-10-27 20:53:11,555 - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+2026-10-27 20:53:11,578 - INFO - Entered the save_object method of MainUtils class
+2026-10-27 20:53:11,583 - INFO - Exited the save_object method of MainUtils class
+2026-10-27 20:53:11,584 - INFO - Entered the save_object method of MainUtils class
+2026-10-27 20:53:11,588 - INFO - Exited the save_object method of MainUtils class
+2026-10-27 21:01:46,745 - INFO - Entered the save_object method of MainUtils class
+2026-10-27 21:01:46,747 - INFO - Exited the save_object method of MainUtils class
+2026-10-27 21:01:46,748 - INFO - Entered the save_object method of MainUtils class
+2026-10-27 21:01:46,755 - INFO - Exited the save_object method of MainUtils class
+2026-10-27 21:01:46,756 - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\10_27_2026_20_50_14\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9907745336577454, precision_score=0.9878702112604872, recall_score=0.993695983731571), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.987540192926045, precision_score=0.9839807769323188, recall_score=0.991125453812021))
